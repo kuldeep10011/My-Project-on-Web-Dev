@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <script src="https://kit.fontawesome.com/d514f76ba8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav id="header">
+    <div class="left">Kuldeep.com</div>
+    <div class="right">
+      <ul id="sidemenu">
+      <a href="#header">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">My Work</a>
+      <a href="#contact">Contact</a>
+      <a href="#gallery">My Gallery</a>
+      <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" style="margin-left: 150px;" onclick="openmenu()"></i>
+    </div>
+  </nav>
+  <div class="background-image">
+    <img src="WhatsApp Image 2023-12-30 at 9.36.20 AM.jpeg" alt="My Image" />
+  </div>
+
+  <div class="text">
+    <h2><u>WEB DEVELOPER</u></h2>
+    <h1>
+      Hi, I'm <span>Kuldeep</span> <br />
+      From Assam, India
+    </h1>
+  </div>
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col1">
+          <img src="WhatsApp Image 2023-12-30 at 11.43.54 AM.jpeg" alt="" />
+        </div>
+        <div class="col2">
+          <h5 class="aboutme"><u>ABOUT ME</u></h5>
+          <p>
+            I'm Kuldeep Gogoi from a beautiful town Dibrugarh which are
+            located in Assam, <br />
+            India After completing my HS in the science stream at Gyan Vigyan
+            Academy, <br />
+            I decided to delve deeper into the world of technology. <br />
+            Currently, I'm pursuing my BCA at Assam Down Town University.
+            <br />
+            My passion lies in full-stack web development, <br />where I'm
+            learning how to create websites from the ground up, mastering
+            <br />
+            both the design and technical aspects. <br />
+            With a solid foundation in science and a growing expertise in web
+            development, <br />
+            I'm eager to blend my skills to contribute meaningfully to the
+            digital world.
+          </p>
+
+          <div class="tab-title">
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="opentab('experience')">
+              Experience
+            </p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active" id="skills">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JS</li>
+              <li>MySQL</li>
+              <li>Git/Github</li>
+              <li>Node JS</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li>Freshers</li>
+              <li>Freelancing</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>BCA From ADTU, Guwahati</li>
+              <li>HS From GVA, DIbrugarh</li>
+              <li>HSLC From L.J.J.V, Dibrugarh</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services">
+    <div class="container">
+      <h5 class="services">My Services</h5>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Front-End Development</h2>
+          <p>
+            A Front-end developer is someone who creates websites and
+            web-applications
+          </p>
+          <a href="https://www.w3schools.com/whatis/whatis_frontenddev.asp">Learn More</a>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-gear"></i>
+          <h2>Back-End Development</h2>
+          <p>
+            A back-end development means working on server-side software,
+            which focuses on everything you can't see on a website
+          </p>
+          <a href="https://www.coursera.org/articles/back-end-developer">Learn More</a>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-layer-group"></i>
+          <h2>Full Stack Development</h2>
+          <p>
+            A full-stack web developer is a person who can develop both client and server software
+          </p>
+          <a href="https://www.coursera.org/articles/full-stack-developer">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <p class="instruction-msg">Click on the image below to explore my Projects</p>
+      <div class="work-list">
+        <div class="work">
+          <img
+            src="hands-holding-pencils-play-tic-tac-toe-people-drawing-crosses-noughts-simple-game-children-flat-vect.jpg"
+            alt="" height="450px" width="400px">
+          <div class="layer">
+            <h3>Tic-Tac-Toe Game</h3>
+            <p>"Experience a classic challenge with my web-based <br>Tic-Tac-Toe game, bringing nostalgia to your browser!"
+            </p>
+            <a href="https://voluble-moonbeam-5fc2cf.netlify.app"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="coins-paper-money-globe-white-statistic-form-background_1387-296.jpeg" height="450px" width="400px">
+
+          <div class="layer">
+            <h3>Currency Converter</h3>
+            <p>"Navigate global currencies effortlessly with my Currency Converter website, ensuring accurate and
+              up-to-date exchange rates at your fingertips."</p>
+            <a href="https://lovely-dusk-f74a4e.netlify.app"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+      <div class="work">
+        <img src="LinkedIn_Background_Photos_700x700.jpg" alt="" height="450px" width="400px">
+
+        <div class="layer">
+          <h3>LinkedIn</h3>
+          <p>"For More Project Visit my LinkedIn Profile and visit Project Section"
+          </p>
+          <a href="https://www.linkedin.com/in/kuldeep-gogoi-126a89235/"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p> <i class="fa-solid fa-envelope"></i> gogoikuldeep32@gmail.com</p>
+            <p> <i class="fa-brands fa-whatsapp"></i> 8822892994</p>
+            <div class="social-icons">
+              <p>Click Here to find me on Social Media</p>
+              <a href="https://www.facebook.com/kuldeep.gogoi.528/"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://twitter.com/gogoikuldeep32"><i class="fa-brands fa-square-x-twitter"></i></a>
+              <a href="https://www.instagram.com/imkulldeep/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/kuldeep-gogoi-126a89235/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <a href="Kuldeep's Resume.pdf" download class="btn">Download My CV</a>
+ </div>
+
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Enter your Name" required>
+
+                <input type="email" name="Email" placeholder="eg: abcd@gmail.com" required>
+
+                <textarea name="Message" rows="6" placeholder="Please Enter your Message Here"></textarea>
+
+                <button type="submit" class="btn2">Submit Here</button> <span><p class="note">**This details will be saved on my Google Sheet</p></span>
+
+              </form>
+              <span id="msg1"></span>
+
+              
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <div id="gallery">
+      <div class="container">
+        <h1 class="sub-title">My Gallery</h1>
+        <p class="instruction-msg">Click on the image below to explore images</p>
+        <div class="gallery-list">
+          <div class="image">
+            <img
+              src="full stack certificate_page-0001.jpg"
+              alt="" height="300px" width="300px">
+            <div class="layer1">
+              <h3>Full Stack Web Dev Certificate</h3>
+              <p>"I completed my Full Stack Web Dev Course from PW Skills"
+              </p>
+              <a href="full stack certificate_page-0001.jpg" download>Download Certificate</a>
+            </div>
+          </div>
+          <div class="image">
+            <img src="Coursera certificate digital marketing_page-0001 (1).jpg" height="300px" width="300px">
+  
+            <div class="layer1">
+              <h3>Digital Marketing Certificate</h3>
+              <p>"I completed my Digital Marketing course from <br>Coursera!"</p>
+              <a href="Coursera certificate digital marketing_page-0001 (1).jpg" download="">Download Certificate</a>
+            </div>
+          </div>
+        <div class="image">
+          <img src="1703859845258-certificate.png" alt="" height="300px" width="300px">
+  
+          <div class="layer1">
+            <h3>JavaScript Certification Test</h3>
+            <p>"I completed my Javascript Certification Course from KG Coding Youtube Course"
+            </p>
+            <a href="1703859845258-certificate.png" download="">Download Certificate</a>
+          </div>
+        </div>
+        </div>
+
+        <div class="hidden">
+          <img src="Coursera certificate 2 kuldeep_page-0001.jpg" alt="" height="300px" width="300px" style="border-radius: 10px;">
+  
+          <div class="layer1">
+            <h3>Writing, Running & Fixing Code in C</h3>
+            <p>"I completed my Writing, Running & Fixing Code in C <br>from Coursera!"
+            </p>
+            <a href="Coursera certificate 2 kuldeep_page-0001.jpg" download="">Download Certificate</a>
+          </div>
+        </div>
+
+        <div class="hidden">
+          <img src="1703863116544-certificate.png" alt="" height="300px" width="300px" style="border-radius: 10px;">
+  
+          <div class="layer1">
+            <h3>HTML Certification Test</h3>
+            <p>"I completed my HTML Certification Course from <br> KG Coding Youtube Course!"
+            </p>
+            <a href="1703863116544-certificate.png" download="">Download Certificate</a>
+          </div>
+        </div>
+        
+      </div>
+      <button id="seeMoreBtn">See More</button>
+      <button id="seeLessBtn" style="border: 1px solid #ff004f; background-color: #ff004f; border-radius: 6px; padding: 14px 50px; color: white;">See Less</button>
+    </div>
+    <div class="copyright">
+      <p>© 2024 Kuldeep. All rights reserved.
+      </p>
+    </div>
+
+
+    
+  <script src="portfolio.js"></script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzfRuIif0h76Q_wlfndjbWZfQuuXsoDh3K3N00fBtNVNachLn6_nqfy1kiOeZX1Pgapwg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg1 = document.getElementById("msg1")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg1.innerHTML = "Message Sent Succesfully!"
+          setTimeout(function(){
+            msg1.innerHTML = ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
